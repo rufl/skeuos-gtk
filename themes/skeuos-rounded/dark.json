@@ -1,0 +1,15 @@
+{
+  "surface": "#23252e",
+  "low": "#272a34",
+  "container": "#2c2e3a",
+  "high": "#303340",
+  "text": "#eeeeec",
+  "secondary": "#a7a8aa",
+  "primary": "#136aff",
+  "on_primary": "#ffffff",
+  "primary_container": "#1f3869",
+  "on_container": "#b6d1ff",
+  "outline": "#0d0e11",
+  "error_color": "#ed6565",
+  "error_container": "#3c232a"
+}

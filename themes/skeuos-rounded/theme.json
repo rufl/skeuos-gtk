@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-rounded",
+  "name": "Skeuos Rounded",
+  "author": "DINX",
+  "license": "GPL-3.0-only",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "requires": {
+    "palette_api": 1,
+    "style_api": 1
+  },
+  "palettes": {
+    "dark": "dark.json",
+    "light": "light.json"
+  },
+  "style": {
+    "tokens": "tokens.json",
+    "css": "components.css"
+  }
+}

@@ -1,0 +1,10 @@
+button { border-width: 1px; border-style: solid; border-color: $outline$; }
+button:hover { background-color: $primary_container$; color: $on_container$; }
+button:checked { background-color: $primary$; color: $on_primary$; }
+button:focus-visible { border-color: $primary$; }
+entry { background-color: $low$; border-width: 1px; border-style: solid; border-color: $outline$; }
+entry:focus-visible { border-color: $primary$; }
+.pearl-card { border-width: 1px; border-style: solid; border-color: $outline$; }
+.pearl-island { border-width: 1px; border-style: solid; border-color: $outline$; }
+.pearl-dock { border-width: 1px; border-style: solid; border-color: $outline$; }
+.pearl-tile { border-width: 1px; border-style: solid; border-color: $outline$; }
