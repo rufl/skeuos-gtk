@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-rounded.qt6ct",
+  "application": "qt6ct",
+  "adapter": "qt6ct",
+  "name": "Skeuos Rounded \u00b7 qt6ct",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/qtct-colors.conf",
+      "output": "qtct-colors.conf"
+    }
+  ],
+  "instructions": "Applied through qt6ct while this theme is active."
+}

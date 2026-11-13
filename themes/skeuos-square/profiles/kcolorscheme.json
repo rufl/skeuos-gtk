@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-square.kcolorscheme",
+  "application": "kcolorscheme",
+  "adapter": "kcolorscheme",
+  "name": "Skeuos Square \u00b7 kcolorscheme",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/kcolorscheme.colors",
+      "output": "kcolorscheme.colors"
+    },
+    {
+      "path": "profiles/dark-kcolorscheme.colors",
+      "output": "dark-kcolorscheme.colors"
+    },
+    {
+      "path": "profiles/light-kcolorscheme.colors",
+      "output": "light-kcolorscheme.colors"
+    }
+  ],
+  "instructions": "Applied to KDE Frameworks applications (Krita, KIO dialogs) while this theme is active."
+}

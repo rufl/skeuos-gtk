@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-square.gtk",
+  "application": "gtk",
+  "adapter": "gtk",
+  "name": "Skeuos Square \u00b7 gtk",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/gtk-colors.css",
+      "output": "gtk-colors.css"
+    }
+  ],
+  "instructions": "Applied to GTK3/GTK4 and libadwaita applications while this theme is active."
+}

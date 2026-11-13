@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-square.ghostty",
+  "application": "ghostty",
+  "adapter": "ghostty",
+  "name": "Skeuos Square \u00b7 ghostty",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/ghostty.conf",
+      "output": "ghostty.conf"
+    }
+  ],
+  "instructions": "Applied to Ghostty-based terminals, including Deetty, while this theme is active."
+}

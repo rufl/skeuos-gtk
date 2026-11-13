@@ -37,3 +37,12 @@ All other colors are unmodified upstream values or direct SASS derivations.
 
 Card and control radii are 0 px (square variant). Both variants ship dark and light palettes; the square variant
 keeps the same colors, borders and spacing with zero corner radii.
+
+## Application profiles (schema 2)
+
+The `profiles/` adapters (gtk, qt5ct, qt6ct, kcolorscheme, ghostty) are derived
+from Pearl's bundled Material profiles, which are MIT licensed and attributed
+to Pearl and AvengeMedia/DankMaterialShell contributors
+(https://github.com/AvengeMedia/DankMaterialShell). The matugen templates are
+used unmodified; they resolve against this theme's palettes, so application
+colors follow the Skeuos/Orchis-derived scheme instead of Material purple.

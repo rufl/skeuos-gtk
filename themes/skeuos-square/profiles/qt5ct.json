@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dinx.skeuos-square.qt5ct",
+  "application": "qt5ct",
+  "adapter": "qt5ct",
+  "name": "Skeuos Square \u00b7 qt5ct",
+  "author": "DINX",
+  "license": "MIT",
+  "source": "https://github.com/rufl/skeuos-gtk",
+  "asset_version": "1.0.0",
+  "variants": [
+    "dark",
+    "light"
+  ],
+  "templates": [
+    {
+      "path": "profiles/qtct-colors.conf",
+      "output": "qtct-colors.conf"
+    }
+  ],
+  "instructions": "Applied through qt5ct while this theme is active."
+}

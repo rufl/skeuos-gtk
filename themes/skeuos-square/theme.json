@@ -1,14 +1,15 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "dinx.skeuos-square",
   "name": "Skeuos Square",
   "author": "DINX",
   "license": "GPL-3.0-only",
   "source": "https://github.com/rufl/skeuos-gtk",
-  "asset_version": "1.0.0",
+  "asset_version": "1.1.0",
   "requires": {
     "palette_api": 1,
-    "style_api": 1
+    "style_api": 1,
+    "profile_api": 1
   },
   "palettes": {
     "dark": "dark.json",
@@ -17,5 +18,34 @@
   "style": {
     "tokens": "tokens.json",
     "css": "components.css"
-  }
+  },
+  "profiles": [
+    "profiles/gtk.json",
+    "profiles/qt5ct.json",
+    "profiles/qt6ct.json",
+    "profiles/kcolorscheme.json",
+    "profiles/ghostty.json"
+  ],
+  "defaults": [
+    {
+      "application": "gtk",
+      "profile": "dinx.skeuos-square.gtk"
+    },
+    {
+      "application": "qt5ct",
+      "profile": "dinx.skeuos-square.qt5ct"
+    },
+    {
+      "application": "qt6ct",
+      "profile": "dinx.skeuos-square.qt6ct"
+    },
+    {
+      "application": "kcolorscheme",
+      "profile": "dinx.skeuos-square.kcolorscheme"
+    },
+    {
+      "application": "ghostty",
+      "profile": "dinx.skeuos-square.ghostty"
+    }
+  ]
 }
