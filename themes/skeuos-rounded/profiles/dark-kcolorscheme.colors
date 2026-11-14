@@ -3,7 +3,7 @@ contrast=4
 
 [General]
 ColorScheme=PearlMaterial
-Name=Pearl Material (matugen)
+Name=Skeuos Rounded (DINX) Dark
 
 [ColorEffects:Disabled]
 Color={{colors.on_surface_variant.default.red}},{{colors.on_surface_variant.default.green}},{{colors.on_surface_variant.default.blue}}
